@@ -97,9 +97,13 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 230px;
-    
+    /* margin: 130px 230px; */
+    margin-top: 130px;
+}
 
+main {
+    width: 1140px;
+    margin: 0px auto;
 }
 
 .sec-title {
@@ -110,9 +114,26 @@ nav a {
 }
 
 .sec-desc {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-desc{
+    font-weight: bold;
+    color: #474747;
 }
