@@ -182,7 +182,8 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-inst{
+
+.resume-item-inst {
     margin-top: 20px;
     margin-bottom: 0px;
 }
@@ -193,10 +194,47 @@ main section {
     font-size: 20px;
     font-weight: 600;
 }
-.resume-cont hr{
+
+.resume-cont hr {
     margin: 30px 5px;
 }
-.down-cv{
+
+.down-cv {
     text-align: center;
     margin-top: 50px;
+}
+a{
+    color: white;
+    /* list-style: none; */
+    text-decoration: none;
+}
+a:hover{
+    /* box-shadow: #757575; */
+    /* border: 1px solid red; */
+    /* background-color: red; */
+    color: gainsboro;
+    /* text-shadow: rgb(214, 6, 6); */
+    /* text-transform: uppercase; */
+    /* text-rendering: geometricPrecision; */
+    /* flex-direction: row-reverse; */
+    te
+    /* direction: rtl; */
+
+}
+
+footer {
+    margin: 0px;
+    background: #FFF8F3;
+    /* width: 1600px; */
+    height: 780px;
+    display:flex;
+    padding: 130px 200px;
+    margin-top: 130px;
+}
+
+.sec-desc {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
