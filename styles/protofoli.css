@@ -203,12 +203,14 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
-a{
+
+a {
     color: white;
     /* list-style: none; */
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     /* box-shadow: #757575; */
     /* border: 1px solid red; */
     /* background-color: red; */
@@ -226,10 +228,12 @@ footer {
     margin: 0px;
     background: #FFF8F3;
     /* width: 1600px; */
+    gap: 100px;
     height: 780px;
-    display:flex;
+    display: flex;
     padding: 130px 200px;
     margin-top: 130px;
+    /* justify-content: space-between; */
 }
 
 .sec-desc {
@@ -237,4 +241,21 @@ footer {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.footer-colom {
+    /* justify-content: space-between; */
+    width: 50%;
+}
+.social-link a{
+margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="Email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    border: 0px;
+    width: 100%;
 }
