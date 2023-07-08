@@ -53,9 +53,11 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('..//images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+
+
 }
 
 .banner {
@@ -243,14 +245,34 @@ footer {
     line-height: 28px;
 }
 
+.sec-title {
+    text-align: left;
+}
+
 .footer-colom {
     /* justify-content: space-between; */
-    width: 50%;
+    /* width: 50%; */
+    /* margin: 0px 230px; */
+    margin-left: 230px;
 }
-.social-link a{
-margin-right: 25px;
+
+#fot-col-1 {
+    width: 560px;
+    /* margin-left: 230px; */
 }
-.contact input[type="text"], .contact input[type="Email"], textarea{
+
+#fot-col-2 {
+    width: 700px;
+    margin-left: 230px;
+}
+
+.social-link a {
+    margin-right: 25px;
+}
+
+.contact input[type="text"],
+.contact input[type="Email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
